@@ -33,7 +33,9 @@ Existing heatmaps use SVG rendering, while the four seasonal analyses use intera
 The **Save** button writes a combined PNG of the return and correlation charts
 and separate interactive HTML files for the new analyses into the `charts` folder.  
 
-The chart example  
+Chart examples  
+![DIA Averages](DIA_Monthly_Average.png)
+![DIA Heatmap](DIA_Table.png)
 
 
 
