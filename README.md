@@ -3,13 +3,15 @@ This is a **Streamlit** application for exploring historical patterns in stock a
 It downloads adjusted daily prices from Yahoo Finance and turns them into return tables, correlations, and interactive
 seasonal strategy charts.  
 
-![DIA Heatmap](DIA_Table.png)
+![UI](UI.png)
 
 The default ticker list includes DIA, GLD, QQQ, SPY, TLT, and USO.  
 
 Users can add symbols and choose a date range from the sidebar.  
 
 Cached price data is reused across analyses to reduce repeated downloads.
+
+![DIA Heatmap](DIA_Table.png)
 
 An **All** tab compares average monthly returns across tickers. Each ticker also
 has six dedicated analysis tabs:
