@@ -3,6 +3,8 @@ This is a **Streamlit** application for exploring historical patterns in stock a
 It downloads adjusted daily prices from Yahoo Finance and turns them into return tables, correlations, and interactive
 seasonal strategy charts.  
 
+![DIA Heatmap](DIA_Table.png)
+
 The default ticker list includes DIA, GLD, QQQ, SPY, TLT, and USO.  
 
 Users can add symbols and choose a date range from the sidebar.  
@@ -32,12 +34,6 @@ Existing heatmaps use SVG rendering, while the four seasonal analyses use intera
 
 The **Save** button writes a combined PNG of the return and correlation charts
 and separate interactive HTML files for the new analyses into the `charts` folder.  
-
-Chart examples  
-![DIA Averages](DIA_Monthly_Average.png)
-![DIA Heatmap](DIA_Table.png)
-
-
 
 The four standalone analysis scripts remain available and share their calculations
 and Plotly chart functions with the application.
