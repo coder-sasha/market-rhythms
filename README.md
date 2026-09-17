@@ -47,7 +47,8 @@ pip install -r requirements.txt
 streamlit run st-returns-hm.py
 ```
 
-Strategy comparisons exclude fees and taxes and assume no interest on cash.  
-Incomplete years and the final month may show partial returns.  
-Analyses with insufficient history display an explanatory message.  
+- Incomplete years and the final month show partial returns.  
+- Return calculations exclude fees and taxes and assume no interest on cash.  
+
+
 
