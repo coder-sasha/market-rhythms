@@ -1,6 +1,6 @@
 # market-rhythms
 This is a **Streamlit** application for exploring historical patterns in stock and ETF performance.  
-It downloads adjusted daily prices from Yahoo Finance and turns them into return tables, correlations, and interactive
+It uses daily prices from Yahoo Finance to generate return tables, correlations, and interactive
 seasonal strategy charts.  
 
 ![DIA Heatmap](DIA_Table.png)  
