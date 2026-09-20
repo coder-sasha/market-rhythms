@@ -3,6 +3,15 @@ This is a **Streamlit** application for exploring historical patterns in stock a
 It downloads adjusted daily prices from Yahoo Finance and turns them into return tables, correlations, and interactive
 seasonal strategy charts.  
 
+![DIA Heatmap](DIA_Table.png)  
+
+## Running the app
+
+```bash
+pip install -r requirements.txt
+streamlit run st-returns-hm.py
+```
+
 ![UI](UI.png)  
 
 The default ticker list includes DIA, GLD, QQQ, SPY, TLT, and USO.  
@@ -10,8 +19,6 @@ The default ticker list includes DIA, GLD, QQQ, SPY, TLT, and USO.
 Users can add symbols and choose a date range from the sidebar.  
 
 Cached price data is reused across analyses to reduce repeated downloads.
-
-![DIA Heatmap](DIA_Table.png)  
 
 An **All** tab compares average monthly returns across tickers. Each ticker also
 has six dedicated analysis tabs:
@@ -39,13 +46,6 @@ and separate interactive HTML files for the new analyses into the `charts` folde
 
 The four standalone analysis scripts remain available and share their calculations
 and Plotly chart functions with the application.
-
-## Running the app
-
-```bash
-pip install -r requirements.txt
-streamlit run st-returns-hm.py
-```
 
 - Incomplete years and the final month show partial returns.  
 - Return calculations exclude fees and taxes and assume no interest on cash.  
